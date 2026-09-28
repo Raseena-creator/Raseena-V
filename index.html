@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Portfolio of Raseena V — Full Stack Developer and Web Designer from Kerala, India."
+    >
+
+    <meta
+        name="keywords"
+        content="Raseena V, Full Stack Developer, Web Developer, Web Designer, HTML, CSS, JavaScript, Bootstrap, jQuery, Python, Django, MySQL, Figma, UI/UX"
+    >
+
+    <meta
+        name="author"
+        content="Raseena V"
+    >
+
+    <meta
+        property="og:title"
+        content="Raseena V | Full Stack Developer & Web Designer"
+    >
+
+    <meta
+        property="og:description"
+        content="Portfolio showcasing my web development projects, technical skills, and UI/UX work."
+    >
+
+    <meta
+        property="og:image"
+        content="assets/raseena.png"
+    >
+
+    <meta
+        property="og:type"
+        content="website"
+    >
+
+    <title>Raseena V | Full Stack Developer & Web Designer</title>
+
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+
+    <!-- Google Fonts -->
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- Main CSS -->
+    <link
+        rel="stylesheet"
+        href="css/styles.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         BACKGROUND
+    ====================================================== -->
+
+    <canvas id="bg-canvas"></canvas>
+
+    <div class="ambient-orbs">
+
+        <div class="orb orb-1"></div>
+
+        <div class="orb orb-2"></div>
+
+        <div class="orb orb-3"></div>
+
+    </div>
+
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header class="site-header">
+
+        <div class="container nav-container">
+
+
+            <!-- Logo -->
+
+            <a
+                href="#home"
+                class="logo"
+            >
+
+                <span>
+                    Raseena<span class="gradient-text">.V</span>
+                </span>
+
+            </a>
+
+
+            <!-- Desktop Navigation -->
+
+            <nav
+                class="main-nav"
+                id="main-nav"
+            >
+
+                <a
+                    href="#home"
+                    class="nav-link active"
+                >
+                    Home
+                </a>
+
+                <a
+                    href="#projects"
+                    class="nav-link"
+                >
+                    Projects
+                </a>
+
+                <a
+                    href="#skills"
+                    class="nav-link"
+                >
+                    Skills
+                </a>
+
+                <a
+                    href="#journey"
+                    class="nav-link"
+                >
+                    Journey
+                </a>
+
+                <a
+                    href="#contact"
+                    class="nav-link"
+                >
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <!-- Header Actions -->
+
+            <div class="header-actions">
+
+                <a
+                    href="assets/Raseena V.pdf"
+                    target="_blank"
+                    download="Raseena_V_Resume.pdf"
+                    class="btn btn-secondary resume-btn nav-resume-btn"
+                >
+                    <i class="fas fa-file-pdf"></i>
+                    Resume
+                </a>
+
+                <button
+                    class="theme-toggle"
+                    id="theme-toggle"
+                    aria-label="Toggle theme"
+                >
+                    <i class="fas fa-sun"></i>
+                </button>
+
+                <a
+                    href="#contact"
+                    class="header-cta"
+                >
+                    Hire Me
+                </a>
+
+                <button
+                    class="mobile-toggle"
+                    id="mobile-toggle"
+                    aria-label="Open menu"
+                >
+                    <i class="fas fa-bars"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <main>
+
+
+        <!-- =====================================================
+             HERO
+        ====================================================== -->
+
+        <section
+            class="hero section"
+            id="home"
+        >
+
+            <div class="container hero-container">
+
+
+                <!-- Hero Content -->
+
+                <div class="hero-content">
+
+                    <div class="status-badge">
+
+                        <span
+                            class="status-dot"
+                            id="status-dot"
+                        ></span>
+
+                        <span id="hero-status">
+                            Open to opportunities
+                        </span>
+
+                    </div>
+
+
+                    <h1 class="hero-title">
+
+                        From Economics to
+
+                        <span class="gradient-text">
+                            Full Stack Development
+                        </span>
+
+                    </h1>
+
+
+                    <p
+                        class="hero-subtitle"
+                        id="hero-subtitle"
+                    >
+                        Completed Full Stack Development & currently learning UI/UX Design. I build responsive web applications using modern frontend, backend, and design technologies.
+                    </p>
+
+
+                    <!-- Hero Buttons -->
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="#projects"
+                            class="btn btn-primary"
+                        >
+                            View My Projects
+
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+
+                        <a
+                            href="assets/Raseena V.pdf"
+                            target="_blank"
+                            download="Raseena_V_Resume.pdf"
+                            class="btn btn-secondary resume-btn"
+                            id="hero-resume-btn"
+                        >
+                            Download Resume
+
+                            <i class="fas fa-download"></i>
+                        </a>
+
+                        <a
+                            href="#contact"
+                            class="btn btn-secondary"
+                        >
+                            Let's Connect
+
+                            <i class="fas fa-paper-plane"></i>
+                        </a>
+
+                    </div>
+
+
+                    <!-- Hero Stats -->
+
+                    <div
+                        class="hero-stats"
+                        id="hero-stats"
+                    ></div>
+
+                </div>
+
+
+
+                <!-- Hero Visual -->
+
+                <div class="hero-visual">
+
+                    <div class="hero-image-wrapper">
+
+                        <div class="hero-image-glow"></div>
+
+                        <img
+                            id="hero-image"
+                            src="assets/raseena.png"
+                            alt="Raseena V"
+                            class="hero-image"
+                        >
+
+                        <div class="hero-floating-card">
+
+                            <div class="floating-icon">
+
+                                <i class="fas fa-code"></i>
+
+                            </div>
+
+                            <div>
+
+                                <strong>
+                                    Full Stack Developer
+                                </strong>
+
+                                <span>
+                                    Python • Django • JavaScript
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             PROJECTS
+        ====================================================== -->
+
+        <section
+            class="projects-section section"
+            id="projects"
+        >
+
+            <div class="container">
+
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        MY WORK
+                    </span>
+
+                    <h2 class="section-title">
+
+                        My
+                        <span class="gradient-text">
+                            Projects
+                        </span>
+
+                    </h2>
+
+                    <p class="section-subtitle">
+
+                        A selection of web development and design
+                        projects I have built while developing my
+                        full-stack and UI/UX skills.
+
+                    </p>
+
+                </div>
+
+
+                <!-- Project Controls -->
+
+                <div class="project-controls">
+
+
+                    <!-- Search -->
+
+                    <div class="search-box">
+
+                        <i class="fas fa-search"></i>
+
+                        <input
+                            type="text"
+                            id="project-search"
+                            placeholder="Search projects or technologies..."
+                        >
+
+                    </div>
+
+
+                    <!-- Categories -->
+
+                    <div
+                        class="filter-tabs"
+                        id="filter-tabs"
+                    ></div>
+
+                </div>
+
+
+                <!-- Project Grid -->
+
+                <div
+                    class="projects-grid"
+                    id="projects-grid"
+                ></div>
+
+
+                <!-- Empty State -->
+
+                <div
+                    class="empty-state"
+                    id="empty-state"
+                >
+
+                    <i class="fas fa-folder-open"></i>
+
+                    <h3>
+                        No projects found
+                    </h3>
+
+                    <p>
+                        Try another search or category.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             SKILLS
+        ====================================================== -->
+
+        <section
+            class="skills-section section"
+            id="skills"
+        >
+
+            <div class="container">
+
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        MY TOOLKIT
+                    </span>
+
+                    <h2 class="section-title">
+
+                        Skills &
+
+                        <span class="gradient-text-alt">
+                            Technologies
+                        </span>
+
+                    </h2>
+
+                    <p class="section-subtitle">
+
+                        Technologies and tools I use for frontend
+                        development, backend development, databases,
+                        version control and UI/UX design.
+
+                    </p>
+
+                </div>
+
+
+                <!-- Skills Grid -->
+
+                <div
+                    class="skills-grid"
+                    id="skills-grid"
+                ></div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             JOURNEY
+        ====================================================== -->
+
+        <section
+            class="journey-section section"
+            id="journey"
+        >
+
+            <div class="container">
+
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        MY JOURNEY
+                    </span>
+
+                    <h2 class="section-title">
+
+                        My
+
+                        <span class="gradient-text">
+                            Journey
+                        </span>
+
+                    </h2>
+
+                    <p class="section-subtitle">
+
+                        My journey from Economics into Full Stack
+                        Development through continuous learning,
+                        practical projects and UI/UX design.
+
+                    </p>
+
+                </div>
+
+
+                <div class="journey-layout">
+
+
+                    <!-- Experience -->
+
+                    <div class="timeline-column">
+
+                        <h3 class="timeline-heading">
+
+                            <i class="fas fa-briefcase"></i>
+
+                            Learning & Development
+
+                        </h3>
+
+                        <div
+                            class="timeline"
+                            id="experience-timeline"
+                        ></div>
+
+                    </div>
+
+
+                    <!-- Education -->
+
+                    <div class="timeline-column">
+
+                        <h3 class="timeline-heading">
+
+                            <i class="fas fa-graduation-cap"></i>
+
+                            Education
+
+                        </h3>
+
+                        <div
+                            class="timeline"
+                            id="education-timeline"
+                        ></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             CONTACT
+        ====================================================== -->
+
+        <section
+            class="contact-section section"
+            id="contact"
+        >
+
+            <div class="container">
+
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        GET IN TOUCH
+                    </span>
+
+                    <h2 class="section-title">
+
+                        Let's
+
+                        <span class="gradient-text">
+                            Connect
+                        </span>
+
+                    </h2>
+
+                    <p class="section-subtitle">
+
+                        Looking for an opportunity to start my
+                        professional career in web development,
+                        full-stack development or web design.
+
+                    </p>
+
+                </div>
+
+
+                <div class="contact-grid">
+
+
+                    <!-- Contact Information -->
+
+                    <div class="contact-info">
+
+
+                        <div class="contact-card">
+
+                            <div class="contact-icon">
+
+                                <i class="fas fa-location-dot"></i>
+
+                            </div>
+
+                            <div>
+
+                                <span>
+                                    Location
+                                </span>
+
+                                <strong id="contact-location">
+                                    Kerala, India
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+
+                        <div
+                            class="contact-card"
+                            id="email-card"
+                        >
+
+                            <div class="contact-icon">
+
+                                <i class="fas fa-envelope"></i>
+
+                            </div>
+
+                            <div>
+
+                                <span>
+                                    Email
+                                </span>
+
+                                <strong id="contact-email">
+                                    Available on request
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Social Links -->
+
+                        <div class="social-links">
+
+                            <a
+                                href="https://github.com/Raseena-creator"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="GitHub"
+                            >
+
+                                <i class="fab fa-github"></i>
+
+                            </a>
+
+
+                            <a
+                                href="https://www.linkedin.com/in/raseena1"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="LinkedIn"
+                            >
+
+                                <i class="fab fa-linkedin-in"></i>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Contact Form -->
+
+                    <form
+                        class="contact-form"
+                        id="contact-form"
+                    >
+
+                        <div class="form-group">
+
+                            <label for="name">
+                                Your Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Enter your name"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="email">
+                                Your Email
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="Enter your email"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="message">
+                                Message
+                            </label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="6"
+                                placeholder="Write your message..."
+                                required
+                            ></textarea>
+
+                        </div>
+
+
+                        <button
+                            type="submit"
+                            class="btn btn-primary submit-btn"
+                        >
+
+                            Send Message
+
+                            <i class="fas fa-paper-plane"></i>
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+            <div>
+
+                <strong>
+                    Raseena<span class="gradient-text">.V</span>
+                </strong>
+
+                <p>
+                    Full Stack Developer & Web Designer
+                </p>
+
+            </div>
+
+            <p>
+
+                ©
+                <span id="current-year">
+                    2026
+                </span>
+
+                Raseena V.
+
+                Built with HTML5, CSS3 & JavaScript.
+
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         PROJECT MODAL
+    ====================================================== -->
+
+    <div
+        class="modal-overlay"
+        id="project-modal"
+    >
+
+        <div class="project-modal">
+
+
+            <button
+                class="modal-close"
+                id="modal-close"
+                aria-label="Close"
+            >
+
+                <i class="fas fa-times"></i>
+
+            </button>
+
+
+            <div
+                class="modal-project-icon"
+                id="modal-icon"
+            ></div>
+
+
+            <span
+                class="modal-badge"
+                id="modal-badge"
+            ></span>
+
+
+            <h2
+                id="modal-title"
+                class="modal-title"
+            ></h2>
+
+
+            <p
+                id="modal-tagline"
+                class="modal-tagline"
+            ></p>
+
+
+            <div
+                id="modal-tech"
+                class="modal-tech"
+            ></div>
+
+
+            <p
+                id="modal-description"
+                class="modal-description"
+            ></p>
+
+
+            <h3>
+                Project Features
+            </h3>
+
+
+            <ul
+                id="modal-features"
+                class="modal-features"
+            ></ul>
+
+
+            <div
+                id="modal-metrics"
+                class="modal-metrics"
+            ></div>
+
+
+            <div class="modal-actions">
+
+                <a
+                    id="modal-demo"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-primary"
+                >
+
+                    Live Demo
+
+                    <i class="fas fa-external-link-alt"></i>
+
+                </a>
+
+
+                <a
+                    id="modal-github"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-secondary"
+                >
+
+                    GitHub
+
+                    <i class="fab fa-github"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         TOAST
+    ====================================================== -->
+
+    <div
+        class="toast"
+        id="toast"
+    >
+
+        <i class="fas fa-check-circle"></i>
+
+        <span id="toast-message">
+            Message
+        </span>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script src="js/data.js"></script>
+
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
