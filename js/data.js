@@ -36,7 +36,7 @@ const PORTFOLIO_DATA = {
 
             {
                 label: "Projects",
-                value: 2,
+                value: 3,
                 suffix: "+"
             },
 
@@ -88,6 +88,93 @@ const PORTFOLIO_DATA = {
 
 
     projects: [
+
+        {
+
+            id: "kadhascript",
+
+            title: "KadhaScript",
+
+            tagline:
+                "Malayalam Screenplay Writing & Script Management Platform",
+
+            category: "fullstack",
+
+            featured: true,
+
+            badge: "Freelance Client",
+
+            clientProject: true,
+
+            tech: [
+                "Python",
+                "Django",
+                "PostgreSQL",
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "Bootstrap"
+            ],
+
+            imageGradient:
+                "linear-gradient(135deg, #1e1b4b 0%, #4338ca 50%, #f59e0b 100%)",
+
+            icon:
+                "fas fa-scroll",
+
+            shortDesc:
+                "A freelance client web platform engineered for Malayalam screenwriters to create, organize, edit, and export industry-standard screenplays.",
+
+            fullDesc:
+                "KadhaScript is a specialized screenplay writing and script management platform designed to help writers create, organize, edit, and export screenplays. Built as a freelance client solution for Malayalam screenwriters, the application features structured screenplay formatting, hierarchical scene navigation, character and dialogue tracking, and real-time auto-save functionality. As the freelance full-stack developer, I engineered the responsive client interface, implemented the Django and PostgreSQL backend architecture, and developed document generation pipelines for PDF and DOCX exports.",
+
+            features: [
+
+                "Malayalam screenplay editor.",
+
+                "Structured screenplay formatting.",
+
+                "Scene and sub-scene management.",
+
+                "Character and dialogue management.",
+
+                "Auto-save functionality.",
+
+                "PDF screenplay export.",
+
+                "DOCX export.",
+
+                "Scene notes management.",
+
+                "Mobile editing improvements."
+
+            ],
+
+            metrics: [
+
+                {
+                    label: "Project Type",
+                    value: "Freelance Client"
+                },
+
+                {
+                    label: "Architecture",
+                    value: "Django • Postgres"
+                },
+
+                {
+                    label: "Role",
+                    value: "Full-Stack Dev"
+                }
+
+            ],
+
+            demoUrl: "",
+
+            githubUrl: ""
+
+        },
+
 
         {
 

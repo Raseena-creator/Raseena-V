@@ -579,7 +579,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     </div>
 
-                    <span class="project-badge">
+                    <span class="project-badge${project.clientProject ? " badge-amber" : ""}">
                         ${project.badge}
                     </span>
 
@@ -782,6 +782,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
         modalBadge.textContent =
             project.badge;
+
+        if (project.clientProject) {
+
+            modalBadge.classList.add(
+                "badge-amber"
+            );
+
+        } else {
+
+            modalBadge.classList.remove(
+                "badge-amber"
+            );
+
+        }
 
         modalTitle.textContent =
             project.title;
